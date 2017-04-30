@@ -1,3 +1,4 @@
+
 <html>
 
   <head>
@@ -9,12 +10,12 @@
 	
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <title> Page Webservice </title>
+    <title> WS/Mining </title>
   </head>
 
   <body>
 	  
-    <h1><strong>Bitcoin: Reception des donnees du Webservice </strong></h1>
+   	<h1><strong>BlockChain: WS/Mining </strong></h1>
 		<nav class="nav navbar-inverse">
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<div class="container">
@@ -30,7 +31,7 @@
     	</pre>
 		</div>
 	</div>
-
+	  <p>Ceci est la page WS/Mining</p>
   </body>
 <script> 
 	var xmlhttp = new XMLHttpRequest();
@@ -41,7 +42,7 @@
 	        document.getElementById("demo").innerHTML = jsonPretty;
 	    }
 	};
-	xmlhttp.open("GET", "https://bitcoin.mubiz.com/address/17LHaecYMc9682FSG911f2Vk574NmUKUWR/", true);
+	xmlhttp.open("GET", "https://bitcoin.mubiz.com/mininginfo", true);
 	xmlhttp.send();
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
